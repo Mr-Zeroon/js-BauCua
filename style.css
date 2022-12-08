@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.result{
+    width: 200px;
+    height: 200px;
+    display: none;
+}
+.result_wrapper{
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    gap: 30px;
+}
+.xoc{
+    display: none;
+}
+.js_xoc_dia{
+    padding: 5px 20px;
+}
